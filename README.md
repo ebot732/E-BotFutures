@@ -1,5 +1,5 @@
 # E-BotFutures
-Bot for trading on USDⓈ-M Futures on the Binance, Commex and Bybit exchanges.
+Bot for trading on USDⓈ-M Futures on the Binance, Commex and Bybit exchanges.     
 Сайт ботов: https://ebot732.github.io/
 
 E-BotFutures объединил функции BinFutures, BybitFutures и CommexFutures.
@@ -7,14 +7,16 @@ E-BotFutures объединил функции BinFutures, BybitFutures и Comme
 Теперь в одном боте можно выбирать биржу и работать с ней.
 
 
-Ссылка для скачивания бота: https://github.com/ebot732/E-BotFutures/releases/download/E-BotFutures-30/E-BotFutures-30
-При регистрации на бирже Bybit по рефссылке использование бота бесплатное.
-Реф ссылка для регистрации на Bybit: https://www.bybit.com/invite?ref=8E183W
+Ссылка для скачивания бота:     
+https://github.com/ebot732/E-BotFutures/releases/download/E-BotFutures-30/E-BotFutures-30
+
+При регистрации на бирже Bybit по рефссылке использование бота бесплатное.                        
+Реф ссылка для регистрации на Bybit: https://www.bybit.com/invite?ref=8E183W                     
 Реф ссылка для регистрации на Commex: https://accounts.commex.com/en/register?ref=NUC4IQEU
 
-При запуске бот предложит выбрать биржу для работы.
-Бот для торговли на Binance Futures USDⓈ-M, на Bybit фьючерсами (деривативами) USDT Perpetual и на Commex Futures USDT с использованием стратегии Мартингейла (усреднения- увеличения позиции с целью улучшения средней цены входа) и выбором растущей (падающей) монеты. Может работать и в LONG и в SHORT.
-Если не хочется использовать усреднения, можно:
+
+Бот для торговли на Binance Futures USDⓈ-M, на Bybit фьючерсами (деривативами) USDT Perpetual и на Commex Futures USDT с использованием стратегии Мартингейла (усреднения- увеличения позиции с целью улучшения средней цены входа) и выбором растущей (падающей) монеты. Может работать и в LONG и в SHORT.               
+     Если не хочется использовать усреднения, можно:
 - выставить limit_aver в 0,
 - или включить использование stop_loss, установить его срабатывание до усреднения и бот будет закрывать позицию в минус, если курс пойдет не в нужную сторону,
 - или установить значение min_bal_perc на 100% и бот не будет выставлять усредняющий ордер.
