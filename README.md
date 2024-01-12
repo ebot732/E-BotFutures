@@ -85,7 +85,7 @@ https://github.com/ebot732/E-BotFutures/releases/download/E-BotFutures-30/E-BotF
 - delta24_min: min изменение цены в коридоре для most_changed,
 - delta24_max: max изменение цены в коридоре для most_changed,
 - select_delta24: выбирать ближе к max или min для most_changed,
-- delta_vol_most_ch, вместо select_delta24 смотреть объем последних 2-х 15м свечей в коридоре измен цены за последн 24ч и выбрать пару с большим изменением,
+- delta_vol_most_ch, вместо select_delta24 смотреть объем последних 2-х свечей в коридоре измен цены за последн 24ч и выбрать пару с большим изменением,
 - delta_vol_mc_interval, период свечей для использования в delta_vol_most_ch,
 - stop_loss: на сколько % должен измениться курс монеты от средней цены входа для закрытия в минус,
 - use_stop_loss: включить использование stop_loss для закрытия в минус (да/нет), если усред-ордер будет частично исполнен, то stop_loss не сработает ,
